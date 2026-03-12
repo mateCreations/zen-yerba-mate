@@ -11,6 +11,13 @@
   --arrowpanel-background: #282d1c !important;
   --arrowpanel-border-color: #4f5b4a !important;
 
+  /* Zen color system */
+  --zen-colors-primary: #1c1e13 !important;
+  --zen-colors-secondary: #282d1c !important;
+  --zen-colors-tertiary: #323826 !important;
+  --zen-dialog-background: #282d1c !important;
+  --zen-branding-bg-reverse: #1c1e13 !important;
+
   /* Text */
   --toolbar-color: #dce0d9 !important;
   --lwt-text-color: #dce0d9 !important;
@@ -23,6 +30,11 @@
 
   /* Sidebar */
   --zen-sidebar-background-color: #1c1e13 !important;
+  --zen-nav-panel-background: #1c1e13 !important;
+  --zen-apz-background: #1c1e13 !important;
+  --sidebar-background-color: #1c1e13 !important;
+  --lwt-sidebar-background-color: #1c1e13 !important;
+  --lwt-sidebar-text-color: #dce0d9 !important;
 
   /* Borders */
   --zen-colors-border: #4f5b4a !important;
@@ -38,4 +50,71 @@
   --toolbar-field-focus-background-color: #282d1c !important;
   --toolbar-field-focus-color: #dce0d9 !important;
   --toolbar-field-focus-border-color: #a67c52 !important;
+}
+
+/* URL bar */
+#urlbar,
+#urlbar-background,
+.urlbar-background,
+#urlbar-container,
+#urlbar-input-container,
+.urlbar-input-container,
+#zen-urlbar,
+#zen-urlbar-container,
+.urlbar-input-box {
+  background-color: #282d1c !important;
+  color: #dce0d9 !important;
+  border-color: #4f5b4a !important;
+  outline: none !important;
+}
+
+#urlbar[focused] > #urlbar-background {
+  border-color: #a67c52 !important;
+  box-shadow: none !important;
+}
+
+/* Search results dropdown */
+.urlbarView,
+.urlbarView-body-inner,
+.urlbarView-results {
+  background-color: #282d1c !important;
+  color: #dce0d9 !important;
+}
+
+.urlbarView-row:hover,
+.urlbarView-row[selected] {
+  background-color: #323826 !important;
+}
+
+.urlbarView-url {
+  color: #7eb2d1 !important;
+}
+
+/* Search/command modal */
+#zen-dialog,
+.zen-dialog,
+panel.autocomplete-richlistbox-popup,
+#PopupAutoComplete,
+#PopupAutoCompleteRichResult,
+.panel-arrowcontent {
+  background-color: #282d1c !important;
+  color: #dce0d9 !important;
+  border-color: #4f5b4a !important;
+}
+
+/* Sidebar elements — direct targeting */
+#navigator-toolbox,
+#TabsToolbar,
+#titlebar,
+#zen-sidebar-top-buttons,
+#zen-apz-wrapper,
+#zen-sidebar-icons-wrapper,
+#zen-browser-action-bar,
+#tabbrowser-tabs,
+#sidebar-box,
+.zen-sidebar,
+#zen-workspaces-button,
+#zen-tabs-wrapper {
+  background-color: #1c1e13 !important;
+  color: #dce0d9 !important;
 }
