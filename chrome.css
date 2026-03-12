@@ -1,0 +1,41 @@
+/* Yerba Mate — Dark theme for Zen Browser
+ * Palette: Verde-Oliva Chumbo · Marrom Ocre · Azul Metal
+ * https://github.com/mateCreations/zen-yerba-mate
+ */
+
+:root {
+  /* Backgrounds */
+  --zen-main-browser-background: #1c1e13 !important;
+  --toolbar-bgcolor: #1c1e13 !important;
+  --tabpanel-background-color: #1c1e13 !important;
+  --arrowpanel-background: #282d1c !important;
+  --arrowpanel-border-color: #4f5b4a !important;
+
+  /* Text */
+  --toolbar-color: #dce0d9 !important;
+  --lwt-text-color: #dce0d9 !important;
+
+  /* Accent */
+  --zen-primary-color: #a67c52 !important;
+  --lwt-accent-color: #1c1e13 !important;
+  --tab-selected-bgcolor: #282d1c !important;
+  --tab-loading-fill: #a67c52 !important;
+
+  /* Sidebar */
+  --zen-sidebar-background-color: #1c1e13 !important;
+
+  /* Borders */
+  --zen-colors-border: #4f5b4a !important;
+
+  /* Selection */
+  --lwt-toolbar-field-highlight: #a67c52 !important;
+  --lwt-toolbar-field-highlight-text: #1c1e13 !important;
+
+  /* URL bar */
+  --toolbar-field-background-color: #282d1c !important;
+  --toolbar-field-color: #dce0d9 !important;
+  --toolbar-field-border-color: #4f5b4a !important;
+  --toolbar-field-focus-background-color: #282d1c !important;
+  --toolbar-field-focus-color: #dce0d9 !important;
+  --toolbar-field-focus-border-color: #a67c52 !important;
+}
