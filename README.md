@@ -1,7 +1,7 @@
 # Yerba Mate for Zen Browser
 
 <p align="center">
-  <img width="120" src="https://raw.githubusercontent.com/mateCreations/zen-yerba-mate/main/images/logo.jpg" alt="Mate" />
+  <img width="120" src="https://raw.githubusercontent.com/mateCreations/zen-yerba-mate/master/images/logo.jpg" alt="Mate" />
 </p>
 
 Dark theme inspired by the yerba mate gourd — earthy greens, warm browns, and steel blues.
@@ -9,7 +9,7 @@ Dark theme inspired by the yerba mate gourd — earthy greens, warm browns, and 
 ## Palette
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/mateCreations/zen-yerba-mate/main/images/palette-yerba-mate.png" alt="Yerba Mate palette" />
+  <img src="https://raw.githubusercontent.com/mateCreations/zen-yerba-mate/master/images/palette-yerba-mate.png" alt="Yerba Mate palette" />
 </p>
 
 | Role       | Color     | Preview |
